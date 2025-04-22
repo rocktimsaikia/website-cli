@@ -2,7 +2,7 @@
 	"name": "rocktim",
 	"version": "1.0.0",
 	"description": "CLI version of my website",
-	"keywords": ["rocktimsaikia", "cli"],
+	"keywords": ["rocktimsaikia", "rocktim", "cli"],
 	"repository": "rocktimsaikia/website-cli",
 	"funding": "https://github.com/sponsors/rocktimsaikia",
 	"license": "MIT",
@@ -26,8 +26,8 @@
 	},
 	"dependencies": {
 		"chalk": "^5.4.1",
+		"cli-select": "^1.1.2",
 		"figures": "^6.1.0",
-		"inquirer": "^12.5.2",
 		"open": "^10.1.1"
 	},
 	"devDependencies": {
