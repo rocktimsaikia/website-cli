@@ -12,9 +12,7 @@
 		"url": "https://rocktimsaikia.dev"
 	},
 	"type": "module",
-	"bin": {
-		"rocktimsaikia": "./dist/cli.js"
-	},
+	"bin": "./dist/cli.js",
 	"files": ["dist"],
 	"scripts": {
 		"build": "tsup",
