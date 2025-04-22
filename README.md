@@ -2,7 +2,7 @@
 
 CLI version of my website
 
-[![Release](https://github.com/rocktimsaikia/rocktimsaikia/actions/workflows/release.yaml/badge.svg)](https://github.com/rocktimsaikia/rocktimsaikia/actions/workflows/release.yaml) [![npm](https://img.shields.io/npm/v/rocktimsaikia?color=brightgreen)](https://www.npmjs.com/package/rocktimsaikia)
+[![Release](https://github.com/rocktimsaikia/website-cli/actions/workflows/release.yaml/badge.svg)](https://github.com/rocktimsaikia/website-cli/actions/workflows/release.yaml) [![npm](https://img.shields.io/npm/v/rocktim?color=brightgreen)](https://www.npmjs.com/package/rocktim)
 
 ## Installation
 
