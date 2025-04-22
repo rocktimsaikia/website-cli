@@ -1,8 +1,12 @@
 {
 	"name": "rocktim",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "CLI version of my website",
-	"keywords": ["rocktimsaikia", "rocktim", "cli"],
+	"keywords": [
+		"rocktimsaikia",
+		"rocktim",
+		"cli"
+	],
 	"repository": "rocktimsaikia/website-cli",
 	"funding": "https://github.com/sponsors/rocktimsaikia",
 	"license": "MIT",
@@ -13,7 +17,9 @@
 	},
 	"type": "module",
 	"bin": "./dist/cli.js",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"build": "tsup",
 		"clean": "rm -rf ~/.notes/*",
@@ -46,7 +52,9 @@
 		"node": ">=18"
 	},
 	"tsup": {
-		"entry": ["src/cli.ts"],
+		"entry": [
+			"src/cli.ts"
+		],
 		"minify": true,
 		"clean": true,
 		"format": "esm"
