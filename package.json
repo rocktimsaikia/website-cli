@@ -2,11 +2,7 @@
 	"name": "rocktim",
 	"version": "1.0.1",
 	"description": "CLI version of my website",
-	"keywords": [
-		"rocktimsaikia",
-		"rocktim",
-		"cli"
-	],
+	"keywords": ["rocktimsaikia", "rocktim", "cli"],
 	"repository": "rocktimsaikia/website-cli",
 	"funding": "https://github.com/sponsors/rocktimsaikia",
 	"license": "MIT",
@@ -17,9 +13,7 @@
 	},
 	"type": "module",
 	"bin": "./dist/cli.js",
-	"files": [
-		"dist"
-	],
+	"files": ["dist"],
 	"scripts": {
 		"build": "tsup",
 		"clean": "rm -rf ~/.notes/*",
@@ -28,7 +22,8 @@
 		"lint": "biome lint .",
 		"lint:fix": "biome lint --write --unsafe .",
 		"test": "echo \"Error: no test specified\" && exit 0",
-		"release": "np --no-publish"
+		"release": "np --no-publish",
+		"version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
 	},
 	"dependencies": {
 		"chalk": "^5.4.1",
@@ -51,9 +46,7 @@
 		"node": ">=18"
 	},
 	"tsup": {
-		"entry": [
-			"src/cli.ts"
-		],
+		"entry": ["src/cli.ts"],
 		"minify": true,
 		"clean": true,
 		"format": "esm"
