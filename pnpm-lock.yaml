@@ -14,6 +14,9 @@ importers:
       cli-select:
         specifier: ^1.1.2
         version: 1.1.2
+      console-clear:
+        specifier: ^1.1.1
+        version: 1.1.1
       figures:
         specifier: ^6.1.0
         version: 6.1.0
@@ -24,6 +27,9 @@ importers:
       '@biomejs/biome':
         specifier: 1.8.3
         version: 1.8.3
+      '@types/console-clear':
+        specifier: ^1.1.4
+        version: 1.1.4
       '@types/node':
         specifier: ^20.17.12
         version: 20.17.30
@@ -540,6 +546,9 @@ packages:
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
     engines: {node: '>=18'}
 
+  '@types/console-clear@1.1.4':
+    resolution: {integrity: sha512-ALU2YWyEvBt1aG6+JFzbwZIgXvnu26UjHsaDrL8xhHw25n4uoKV8qUHuui4xxKQMUP/kwe1e5dh9JFa6Htpf+w==}
+
   '@types/estree@1.0.7':
     resolution: {integrity: sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ==}
 
@@ -745,6 +754,10 @@ packages:
   consola@3.4.2:
     resolution: {integrity: sha512-5IKcdX0nnYavi6G7TtOhwkYzyjfJlatbjMjuLSfE2kYT5pMDOilZ4OvMhi637CcDICTmz3wARPoyhqyX1Y+XvA==}
     engines: {node: ^14.18.0 || >=16.10.0}
+
+  console-clear@1.1.1:
+    resolution: {integrity: sha512-pMD+MVR538ipqkG5JXeOEbKWS5um1H4LUUccUQG68qpeqBYbzYy79Gh55jkd2TtPdRfUaLWdv6LPP//5Zt0aPQ==}
+    engines: {node: '>=4'}
 
   cosmiconfig@8.3.6:
     resolution: {integrity: sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA==}
@@ -2189,6 +2202,8 @@ snapshots:
 
   '@sindresorhus/merge-streams@2.3.0': {}
 
+  '@types/console-clear@1.1.4': {}
+
   '@types/estree@1.0.7': {}
 
   '@types/node@20.17.30':
@@ -2367,6 +2382,8 @@ snapshots:
       xdg-basedir: 5.1.0
 
   consola@3.4.2: {}
+
+  console-clear@1.1.1: {}
 
   cosmiconfig@8.3.6(typescript@5.8.3):
     dependencies:

@@ -3,6 +3,7 @@
 import { stdout } from "node:process";
 import chalk from "chalk";
 import cliSelect from "cli-select";
+import clear from "console-clear";
 import figures from "figures";
 import open from "open";
 
@@ -16,8 +17,11 @@ const ITEMS = [
 ];
 
 async function main() {
+	// Clear the console
+	clear();
+
 	stdout.write(
-		`\nHello ${figures.heart}\nMy name is Rocktim Saikia.\nI am a software engineer who enjoys building projects, traveling, and staying fit.\n\n`,
+		`\nHello ${chalk.greenBright(figures.heart)}\nMy name is Rocktim Saikia.\nI am a software engineer who enjoys building projects, traveling, and staying fit.\n\n`,
 	);
 
 	stdout.write(chalk.dim("My socials and resume:\n"));
