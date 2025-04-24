@@ -12,6 +12,7 @@ const ITEMS = [
 	{ name: "Website", value: "https://rocktimsaikia.dev" },
 	{ name: "Discord", value: "https://discord.gg/M3d3TwNEka" },
 	{ name: "Instagram", value: "https://instagram.com/rocktim.saikiaa" },
+	{ name: "Twitch", value: "https://www.twitch.tv/rocktim_saikia" },
 	{ name: "LinkedIn", value: "https://linkedin.com/in/rocktimsaikia" },
 	{ name: "Resume", value: "https://rocktimsaikia.dev/rocktim_resume.pdf" },
 ];
