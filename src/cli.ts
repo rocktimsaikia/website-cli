@@ -22,7 +22,7 @@ async function main() {
 	clear();
 
 	stdout.write(
-		`\nHello ${chalk.greenBright(figures.heart)}\nMy name is Rocktim Saikia.\nI am a software engineer who enjoys building projects, traveling, and staying fit.\n\n`,
+		`\nHello ${chalk.greenBright(figures.heart)}\nMy name is Rocktim Saikia.\nI am a principal software engineer who enjoys building projects, traveling, and staying fit.\n\n`,
 	);
 
 	stdout.write(chalk.dim("My socials and resume:\n"));
