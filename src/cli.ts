@@ -11,7 +11,7 @@ const ITEMS = [
 	{ name: "GitHub", value: "http://github.com/rocktimsaikia" },
 	{ name: "Website", value: "https://rocktimsaikia.dev" },
 	{ name: "Discord", value: "https://discord.gg/M3d3TwNEka" },
-	{ name: "Instagram", value: "https://instagram.com/rocktim.saikiaa" },
+	{ name: "Instagram", value: "https://instagram.com/rocktim.sa" },
 	{ name: "Twitch", value: "https://www.twitch.tv/rocktim_saikia" },
 	{ name: "LinkedIn", value: "https://linkedin.com/in/rocktimsaikia" },
 	{ name: "Resume", value: "https://rocktim.dev/resume.pdf" },
