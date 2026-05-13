@@ -14,7 +14,7 @@ const ITEMS = [
 	{ name: "Instagram", value: "https://instagram.com/rocktim.saikiaa" },
 	{ name: "Twitch", value: "https://www.twitch.tv/rocktim_saikia" },
 	{ name: "LinkedIn", value: "https://linkedin.com/in/rocktimsaikia" },
-	{ name: "Resume", value: "https://rocktimsaikia.dev/rocktim_resume.pdf" },
+	{ name: "Resume", value: "https://rocktim.dev/resume.pdf" },
 ];
 
 async function main() {
